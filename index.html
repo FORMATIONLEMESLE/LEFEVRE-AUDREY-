@@ -1,14 +1,11 @@
 
 <!DOCTYPE html>
-
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EI LEMESLE AUDREY FORMATIONS</title>
-
 <style>
-
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -190,7 +187,6 @@ padding:40px;
 border-radius:12px;
 text-align:center;">
 
-<h2 style="color:white;">Nouveauté 2026</h2>
 
 <p>
 La santé mentale au cœur des entreprises est aujourd’hui un enjeu majeur.
@@ -198,14 +194,200 @@ Face au stress, aux tensions et à l’usure professionnelle,
 il devient essentiel d’accompagner les équipes.
 </p>
 
-<p>
-3 nouvelles formations :
-<strong>PSSM</strong>,
-<strong>Gestion des conflits</strong> et
-<strong>Prévention de l’usure professionnelle</strong>.
-</p>
 
-</div>
+
+<section id="nouveautes" class="nouveautes-section">
+  <div class="nouveautes-container">
+
+    <div class="nouveautes-intro">
+      <span class="nouveautes-surtitle">ACTUALITÉS</span>
+      <h2>Nouveautés 2026–2027</h2>
+      <p>
+        De nouvelles approches et de nouveaux partenariats pour accompagner
+        les entreprises dans la prévention, le bien-être et la performance
+        collective.
+      </p>
+    </div>
+
+    <div class="nouveautes-grid">
+
+      <!-- NOUVEAUTÉ 2026 -->
+      <article class="nouveaute-card nouveaute-2026">
+        <span class="nouveaute-date">NOUVEAUTÉ 2026</span>
+        <h3>La santé mentale au cœur des entreprises</h3>
+        <p>
+          Parce que la santé des collaborateurs est essentielle à la
+          performance durable, je développe des formations concrètes pour
+          mieux comprendre les enjeux humains au travail et agir au quotidien.
+        </p>
+
+        <div class="nouveaute-points">
+          <span>✓ Premiers Secours en Santé Mentale (PSSM)</span>
+          <span>✓ Gestion des conflits</span>
+          <span>✓ Prévention de l’usure professionnelle</span>
+        </div>
+      </article>
+
+      <!-- NOUVEAUTÉ 2027 -->
+      <article class="nouveaute-card nouveaute-2027">
+        <span class="nouveaute-date">À PARTIR DE JANVIER 2027</span>
+        <h3>Une nouvelle collaboration autour de la QVCT</h3>
+        <p>
+          Je suis heureuse de développer une nouvelle collaboration avec
+          <strong>AccorSens</strong> autour de la Qualité de Vie et des
+          Conditions de Travail (QVCT).
+        </p>
+        <p>
+          Une démarche commune pour favoriser le bien-être des collaborateurs,
+          améliorer les relations professionnelles et contribuer à un
+          environnement de travail plus serein, humain et performant.
+        </p>
+
+        <a
+          href="https://accorsens.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn nouveaute-btn"
+        >
+          Découvrir AccorSens →
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<style>
+.nouveautes-section {
+  padding: 65px 20px;
+  background: linear-gradient(135deg, #f3f6f5, #ffffff);
+}
+
+.nouveautes-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.nouveautes-intro {
+  max-width: 760px;
+  margin: 0 auto 38px;
+  text-align: center;
+}
+
+.nouveautes-surtitle {
+  color: #528276;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.nouveautes-intro h2 {
+  margin: 12px 0;
+  color: #24483f;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+.nouveautes-intro p {
+  color: #56645f;
+  line-height: 1.7;
+}
+
+.nouveautes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+  align-items: stretch;
+}
+
+.nouveaute-card {
+  padding: 32px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 8px 28px rgba(31, 61, 51, 0.09);
+  border: 1px solid #e3ebe7;
+  display: flex;
+  flex-direction: column;
+}
+
+.nouveaute-2026 {
+  border-top: 5px solid #70988a;
+}
+
+.nouveaute-2027 {
+  border-top: 5px solid #c69b57;
+  background: linear-gradient(145deg, #ffffff, #fbf7ef);
+}
+
+.nouveaute-date {
+  display: inline-block;
+  align-self: flex-start;
+  margin-bottom: 18px;
+  padding: 8px 12px;
+  border-radius: 30px;
+  background: #eaf2ee;
+  color: #315e50;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.nouveaute-2027 .nouveaute-date {
+  background: #f3e8d4;
+  color: #7c5a25;
+}
+
+.nouveaute-card h3 {
+  margin: 0 0 16px;
+  color: #24483f;
+  font-size: 1.45rem;
+  line-height: 1.35;
+}
+
+.nouveaute-card p {
+  color: #53615b;
+  line-height: 1.75;
+}
+
+.nouveaute-points {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+  color: #315e50;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.nouveaute-btn {
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 12px 18px;
+  border-radius: 7px;
+  background: #315e50;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.nouveaute-btn:hover {
+  background: #24483f;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 700px) {
+  .nouveautes-section {
+    padding: 45px 16px;
+  }
+
+  .nouveautes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nouveaute-card {
+    padding: 25px;
+  }
+}
+</style>
 
 </section>
 
@@ -248,25 +430,25 @@ il devient essentiel d’accompagner les équipes.
 <div class="card">
 <h3>Formation Initiale SST</h3>
 <p>14h - 2 jours</p>
-<a class="btn" href="Fi-sst.pdf" target="_blank">Voir le programme</a>
+<a class="btn" href="FI-SST.PDF" target="_blank">Voir le programme</a>
 </div>
 
 <div class="card">
 <h3>MAC SST</h3>
 <p>7h - 1 journée</p>
-<a class="btn" href="Mac-2026.pdf" target="_blank">Voir le programme</a>
+<a class="btn" href="MAC-2026.pdf" target="_blank">Voir le programme</a>
 </div>
 
 <div class="card">
 <h3>Premiers Secours</h3>
 <p>7h</p>
-<a class="btn" href="Prgrm1ersecours2026.pdf" target="_blank">Voir le programme</a>
+<a class="btn" href="prgrm1ersecours2026.pdf" target="_blank">Voir le programme</a>
 </div>
 
 <div class="card">
 <h3>PSSM</h3>
 <p>14h - 2 jours</p>
-<a class="btn" href="pssm2026.pdf" target="_blank">Voir le programme</a>
+<a class="btn" href="PSSM2026.pdf" target="_blank">Voir le programme</a>
 </div>
 
 <div class="card">
@@ -280,15 +462,10 @@ il devient essentiel d’accompagner les équipes.
 <p>14h - 2 jours</p>
 <a class="btn" href="santementaleetusurepro.pdf" target="_blank">Voir le programme</a>
 </div>
-
 </div>
-
 </section>
-
 <section class="section">
-
 <h2>Ils me font confiance</h2>
-
 <div class="confiance">
 
 <div>GROUPE LE DU</div>
@@ -361,7 +538,5 @@ Contact : Audrey Lefevre – kerzen.bzh@gmail.com – 06 62 68 98 41
 <img src="Logo2.JPEG" alt="Logo" style="width:250px; margin-top:10px;">
 
 </footer>
-
 </body>
 </html
-
